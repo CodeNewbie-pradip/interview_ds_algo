@@ -4,7 +4,7 @@ Leetcode difficulty         : Medium
 Leetcode Related Topic      : Array, Greedy
 */
 
-//------------------------------Solution - in - C++ ---------------------------------------------------------------------------
+//------------------------------Solution - in - C++ -----------------------------------------------------------
 
 //Approach 1:Brute force
 //T.C       :O(m^2)  &  S.C   :O(1)
@@ -25,6 +25,9 @@ public:
         return result;
     }
 };
+
+//--------------------------------------------------------------------------------
+
 //Approach 1:Optimized Pair Comparison
 //T.C       :O(m)  &  S.C     :O(1)
 class Solution {
@@ -44,6 +47,9 @@ public:
         return max_dist;
     }
 };
+
+//--------------------------------------------------------------------------------------------------
+
 //Approach 3:Min-Max(Greedy Approach)
 //T.C       :O(m)  &  S.C     :O(1)
 class Solution {
