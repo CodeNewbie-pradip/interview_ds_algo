@@ -1,3 +1,14 @@
+/*
+Leetcode Link               : https://leetcode.com/problems/fraction-addition-and-subtraction/
+Leetcode difficulty         : Medium
+Leetcode Related Topic      : Math, String, Simulation
+*/
+
+//------------------------------Solution - in - C++ -----------------------------------------------------------
+
+//Approach 1:Simulation Approach
+//T.C       : O(n) — length of expression
+//S.C       : O(1) — No extra space other than a few variables.
 class Solution {
 public:
     string fractionAddition(string exp) {
