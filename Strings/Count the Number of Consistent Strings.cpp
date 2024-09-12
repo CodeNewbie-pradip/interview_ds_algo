@@ -2,7 +2,7 @@
 Leetcode Link               : https://leetcode.com/problems/count-the-number-of-consistent-strings/
 Leetcode difficulty         : Easy
 Leetcode Related Topic      : String, Hash Table, String, Bit Manipulation, Counting
-Medium Article Link	        : 
+Medium Article Link	        : https://medium.com/@pradipalabade/count-the-number-of-consistent-strings-35277823e9e2
 */
 
 //------------------------------Solution - in - C++ -----------------------------------------------------------
