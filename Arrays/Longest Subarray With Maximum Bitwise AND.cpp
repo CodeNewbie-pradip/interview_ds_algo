@@ -1,8 +1,8 @@
 /*
 Leetcode Link               : https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/
 Leetcode difficulty         : Medium
-Leetcode Related Topic      : Array Bit Manipulation
-Medium Article Link	        : 
+Leetcode Related Topic      : Array, Bit, Manipulation
+Medium Article Link	        : https://medium.com/@pradipalabade/longest-subarray-with-maximum-bitwise-and-d6b3061e7cb5
 */
 
 //------------------------------Solution - in - C++ -----------------------------------------------------------
