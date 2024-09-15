@@ -2,7 +2,7 @@
 Leetcode Link               : https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 Leetcode difficulty         : medium
 Leetcode Related Topic      : Hash Table, String, Bit-Manipulation, Prefix sum
-Medium Article Link	        : 
+Medium Article Link	        : https://medium.com/@pradipalabade/1371-find-the-longest-substring-containing-vowels-in-even-counts-250a179a5fcb
 */
 
 //------------------------------Solution - in - C++ --------------------------------------------------------------
