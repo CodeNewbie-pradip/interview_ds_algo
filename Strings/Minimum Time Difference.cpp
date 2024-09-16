@@ -8,9 +8,7 @@ Medium Article Link	        :
 //------------------------------Solution - in - C++ -----------------------------------------------------------
 
 //Approach 1: Brute Force
-//T.C       : O(nlog(n))   Time Conversion:𝑂(𝑛), 
-//                         Sorting: 𝑂(𝑛log⁡𝑛)
-//                         Finding Minimum Difference: 𝑂(𝑛).
+//T.C       : O(nlog(n))   Time Conversion:𝑂(𝑛), Sorting: 𝑂(𝑛log⁡𝑛), Finding Minimum Difference: 𝑂(𝑛).
 //S.C       : O()
 //-----------------------------------------------------------------------------------------------------------------
 class Solution {
@@ -51,32 +49,31 @@ public:
 //S.C        :
 //------------------------------------------------------------------------------------------------------------------
 class Solution {
-public:
-    int timeDifferenceInMinutes(string & time){
-        int hh=stoi(time.substr(0, 2));
-        int mm=stoi(time.substr(3, 2));
+    public int timeDifferenceInMinutes(String time) {
+        int hh = Integer.parseInt(time.substring(0, 2));
+        int mm = Integer.parseInt(time.substring(3, 2));
         
-        return hh*60+mm;
+        return hh * 60 + mm;
     }
-    int findMinDifference(vector<string>& timePoints) {
-        int minDiff=INT_MAX;
-        int hh=0, mm=0;
+
+    public int findMinDifference(List<String> timePoints) {
+        int minDiff = Integer.MAX_VALUE;
+        List<Integer> minutes = new ArrayList<>();
         
-        vector<int>minutes;
-        
-        for(auto time:timePoints){
-            minutes.push_back(timeDifferenceInMinutes(time));
+        for (String time : timePoints) {
+            minutes.add(timeDifferenceInMinutes(time));
         }
         
-        sort(minutes.begin(), minutes.end());
+        Collections.sort(minutes);
         
-        for(int i=1; i<minutes.size(); i++){
-            minDiff=min(minDiff, minutes[i]-minutes[i-1]);
+        for (int i = 1; i < minutes.size(); i++) {
+            minDiff = Math.min(minDiff, minutes.get(i) - minutes.get(i - 1));
         }
         
-        int circularDiff=1440-(minutes.back()-minutes[0]);
+        int circularDiff = 1440 - (minutes.get(minutes.size() - 1) - minutes.get(0));
         
-        return min(minDiff, circularDiff);
+        return Math.min(minDiff, circularDiff);
     }
-};
+}
+
 //--------------------------------------------------------------------------------------------
