@@ -2,7 +2,7 @@
 Leetcode Link               : https://leetcode.com/problems/minimum-time-difference/
 Leetcode difficulty         : Medium
 Leetcode Related Topic      : Array Math String Sorting
-Medium Article Link	        : 
+Medium Article Link	        : https://medium.com/@pradipalabade/539-minimum-time-difference-e147ad648c09
 */
 
 //------------------------------Solution - in - C++ -----------------------------------------------------------
