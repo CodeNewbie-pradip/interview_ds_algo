@@ -1,7 +1,7 @@
 /*
-GFG Link               : 
+GFG Link               : https://www.geeksforgeeks.org/problems/longest-distinct-characters-in-string5848/1
 GFG difficulty         : Easy
-GFG Related Topic      : 
+GFG Related Topic      : Strings
 */
 
 //------------------------------Solution - in - C++ -----------------------------------------------------------
