@@ -1,4 +1,4 @@
-Approach			   - Sliding Window + HashSet	
+Approach	     - Sliding Window + HashSet	
 Time Complexity  - O(n)	
 Space Complexity - O(n)	
 Suitable For     - Best Overall
